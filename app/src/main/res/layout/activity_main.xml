@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/list"
+        android:layout_width="365dp"
+        android:layout_height="490dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="78dp"
+        android:justificationMode="inter_word"
+        android:scrollbars="vertical"
+        tools:layout_editor_absoluteX="10dp"
+        tools:text="EMPTY..." />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="13dp"
+        android:text="REQUEST" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="41dp"
+        android:text="MY RECORDS"
+        android:textColor="#E60C0C"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="25dp"
+        android:text="POST" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="CLEAR" />
+
+
+</RelativeLayout>
